@@ -1,0 +1,38 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+docker-compose.override.yml
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+
+.DS_Store
+/resources/frontend/app/node_modules
+/resources/frontend/app/dist
+
+
+# local env files
+/resources/frontend/app/.env.local
+/resources/frontend/app/.env.*.local
+
+# Log files
+/resources/frontend/app/npm-debug.log*
+/resources/frontend/app/yarn-debug.log*
+/resources/frontend/app/yarn-error.log*
+/resources/frontend/app/pnpm-debug.log*
+
+# Editor directories and files
+/resources/frontend/app/.idea
+/resources/frontend/app/.vscode
+/resources/frontend/app/*.suo
+/resources/frontend/app/*.ntvs*
+/resources/frontend/app/*.njsproj
+/resources/frontend/app/*.sln
+/resources/frontend/app/*.sw?

@@ -1,0 +1,12 @@
+{
+    "name": "warehouse",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+      "prepare": "cd resources/frontend/app && npm install",
+      "serve": "cd resources/frontend/app && npm run serve",
+      "build": "cd resources/frontend/app && npm run build",
+      "lint": "cd resources/frontend/app && npm run lint",
+      "test": "cd resources/frontend/app && npm run test:unit"
+    }
+  }
